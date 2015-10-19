@@ -22,7 +22,7 @@ namespace EventSurvey
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("This will be our survey app");
             });
         }
     }
