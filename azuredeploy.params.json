@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "siteName": {
-            "value": null
+            "value": "HackaSurvey"
         },
         "hostingPlanName": {
-            "value": null
+            "value": "Free"
         },
         "siteLocation": {
-            "value": null
+            "value": "eastus"
         },
         "databaseAccountName": {
-            "value": null
+            "value": "HackaSurveyDB"
         },
         "location": {
-            "value": null
+            "value": "eastus"
         }
     }
 }
