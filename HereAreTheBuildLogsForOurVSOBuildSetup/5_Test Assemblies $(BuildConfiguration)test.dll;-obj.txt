@@ -1,0 +1,2 @@
+2015-10-20T21:45:38.6564641Z Executing the powershell script: C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\tasks\VSTest\1.0.21\VSTest.ps1
+2015-10-20T21:45:39.2429062Z ##[warning]No test assemblies found matching the pattern: **\debug\*test*.dll;-:**\obj\**

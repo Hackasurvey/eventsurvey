@@ -1,0 +1,48 @@
+2015-10-20T21:43:48.7010523Z Executing the powershell script: C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\tasks\AzureResourceGroupDeployment\1.0.23\DeployAzureResourceGroup.ps1
+2015-10-20T21:44:14.5556914Z Looking for Azure PowerShell module at C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+2015-10-20T21:44:16.4476940Z AzurePSCmdletsVersion= 0.9.8
+2015-10-20T21:44:16.6779998Z Get-ServiceEndpoint -Name d3444aae-a662-42e4-8a23-6ab944553c65 -Context Microsoft.TeamFoundation.DistributedTask.Agent.Worker.Common.TaskContext
+2015-10-20T21:44:19.6270716Z Username= buildservice@jevanletoutlook.onmicrosoft.com
+2015-10-20T21:44:19.6350719Z Add-AzureAccount -Credential $psCredential
+2015-10-20T21:44:21.9791162Z azureSubscriptionId= 3971cf87-fc7d-46c2-b27b-0a5cc46ee31d
+2015-10-20T21:44:21.9791162Z azureSubscriptionName= MSDN
+2015-10-20T21:44:21.9851164Z Select-AzureSubscription -SubscriptionId 3971cf87-fc7d-46c2-b27b-0a5cc46ee31d
+2015-10-20T21:44:22.3977932Z ##[debug]Starting Azure Resource Group Deployment Task
+2015-10-20T21:44:22.3988138Z ##[debug]ConnectedServiceName = d3444aae-a662-42e4-8a23-6ab944553c65
+2015-10-20T21:44:22.3997926Z ##[debug]Action = Create Or Update Resource Group
+2015-10-20T21:44:22.3997926Z ##[debug]ResourceGroupName = HackaSurvey
+2015-10-20T21:44:22.4007930Z ##[debug]Location = East US
+2015-10-20T21:44:22.4017925Z ##[debug]OverrideParameters = 
+2015-10-20T21:44:22.4337929Z ##[debug]Validated the required azure powershell version
+2015-10-20T21:44:22.4458149Z ##[debug]Finding files based on C:\a\1\s\azuredeploy.json
+2015-10-20T21:44:22.4737935Z ##[debug]Files Matching Pattern: C:\a\1\s\azuredeploy.json
+2015-10-20T21:44:22.4807932Z ##[debug]deploymentDefinitionFile = C:\a\1\s\azuredeploy.json
+2015-10-20T21:44:22.4897980Z ##[debug]Finding files based on C:\a\1\s\azuredeploy.params.json
+2015-10-20T21:44:22.4958160Z ##[debug]Files Matching Pattern: C:\a\1\s\azuredeploy.params.json
+2015-10-20T21:44:22.4967936Z ##[debug]deploymentDefinitionParametersFile = C:\a\1\s\azuredeploy.params.json
+2015-10-20T21:44:22.5417930Z ##[debug]Generating csm parameter object
+2015-10-20T21:44:22.6317916Z ##[debug]Generated the parameter object
+2015-10-20T21:44:22.6427910Z ##[warning]The Switch-AzureMode cmdlet is deprecated and will be removed in a future release.
+2015-10-20T21:44:29.6823301Z ##[warning]The output object of this cmdlet will be modified in a future release.
+2015-10-20T21:44:37.0561826Z ##[debug]$azureResourceGroupDeployment = New-AzureResourceGroupDeployment -Name "HackaSurvey" -ResourceGroupName "HackaSurvey" -TemplateFile "C:\a\1\s\azuredeploy.json" -TemplateParameterObject $csmParametersObject  -Verbose -ErrorAction silentlycontinue -ErrorVariable deploymentError
+2015-10-20T21:44:37.0571866Z [Azure Resource Manager]Creating resource group deployment with name HackaSurvey
+2015-10-20T21:44:38.0560021Z ##[debug]9:44:38 PM - Template is valid.
+2015-10-20T21:44:40.7318648Z ##[debug]9:44:40 PM - Create template deployment 'HackaSurvey'.
+2015-10-20T21:44:45.9889666Z ##[debug]9:44:45 PM - Resource Microsoft.DocumentDb/databaseAccounts 'hackasurveydb' provisioning status is succeeded
+2015-10-20T21:44:48.4871405Z ##[debug]9:44:48 PM - Resource Microsoft.DocumentDb/databaseAccounts 'hackasurveydb' provisioning status is succeeded
+2015-10-20T21:44:48.4881611Z ##[debug]9:44:48 PM - Resource Microsoft.Web/serverFarms 'HackaSurveyPlan' provisioning status is succeeded
+2015-10-20T21:44:50.9798785Z ##[debug]9:44:50 PM - Resource microsoft.insights/alertrules 'CPUHigh HackaSurveyPlan' provisioning status is succeeded
+2015-10-20T21:44:50.9808783Z ##[debug]9:44:50 PM - Resource Microsoft.Web/Sites 'HackaSurvey' provisioning status is succeeded
+2015-10-20T21:44:50.9817196Z ##[debug]9:44:50 PM - Resource microsoft.insights/alertrules 'LongHttpQueue HackaSurveyPlan' provisioning status is succeeded
+2015-10-20T21:44:53.4998065Z ##[debug]9:44:53 PM - Resource Microsoft.Web/Sites/config 'HackaSurvey/web' provisioning status is succeeded
+2015-10-20T21:44:55.9906026Z ##[debug]9:44:55 PM - Resource microsoft.insights/alertrules 'ServerErrors HackaSurvey' provisioning status is succeeded
+2015-10-20T21:44:55.9915588Z ##[debug]9:44:55 PM - Resource microsoft.insights/components 'HackaSurvey' provisioning status is succeeded
+2015-10-20T21:44:58.4735737Z ##[debug]9:44:58 PM - Resource microsoft.insights/autoscalesettings 'HackaSurveyPlan-HackaSurvey' provisioning status is succeeded
+2015-10-20T21:44:58.4745687Z ##[debug]9:44:58 PM - Resource microsoft.insights/alertrules 'ForbiddenRequests HackaSurvey' provisioning status is succeeded
+2015-10-20T21:45:03.1752415Z ##[debug][Azure Resource Manager]Created resource group deployment with name HackaSurvey
+2015-10-20T21:45:03.1850441Z ##[debug][Azure Resource Manager]Getting resource group HackaSurvey
+2015-10-20T21:45:03.1864793Z ##[warning]The output object of this cmdlet will be modified in a future release.
+2015-10-20T21:45:03.4908448Z ##[debug][Azure Resource Manager]Got resource group HackaSurvey
+2015-10-20T21:45:03.5062669Z Successfully created resource group deployment with name 'HackaSurvey'
+2015-10-20T21:45:03.5070552Z ##[debug]End of resource group deployment logs
+2015-10-20T21:45:03.5090707Z ##[debug]Completing Azure Resource Group Deployment Task
