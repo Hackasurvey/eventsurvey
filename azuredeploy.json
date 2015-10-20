@@ -92,7 +92,7 @@
           "properties": {
             "connectionStrings": [
               {
-                "ConnectionString": "[concat(reference(concat('Microsoft.DocumentDb/databaseAccounts/', parameters('databaseAccountName'))).documentEndpoint, '@', listKeys(resourceId('Microsoft.DocumentDb/databaseAccounts', parameters('databaseAccountName')), '2014-07-10').primaryMasterKey)]",
+                "ConnectionString": "[concat(reference(concat('Microsoft.DocumentDb/databaseAccounts/', parameters('databaseAccountName'))).documentEndpoint, '@', listKeys(resourceId('Microsoft.DocumentDb/databaseAccounts', parameters('databaseAccountName')), '2015-04-08').primaryMasterKey)]",
                 "Name": "DocDBConnection",
                 "Type": 3
               }
@@ -103,7 +103,7 @@
                   "Name":  "endpoint"
                 },
                 {
-                    "Value":  "[listKeys(resourceId('Microsoft.DocumentDb/databaseAccounts', parameters('databaseAccountName')), '2014-07-10').primaryMasterKey]",
+                    "Value":  "[listKeys(resourceId('Microsoft.DocumentDb/databaseAccounts', parameters('databaseAccountName')), '2015-04-08').primaryMasterKey]",
                     "Name":  "authKey"
                 }
             ]
@@ -326,7 +326,7 @@
             }
         },
         {
-            "apiVersion": "2015-04-01",
+            "apiVersion": "2015-05-01",
             "name": "[parameters('siteName')]",
             "type": "microsoft.insights/components",
             "location": "Central US",
