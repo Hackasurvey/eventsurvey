@@ -3,29 +3,49 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <h1> The Event Survey</h1>
+    <p class="lead">Thank you  for coming to our event.  Please give us feedback</p>
     <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
 
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
+    <!--QUESTION FOR SURVEY 
+        
+1.	Event Date  TYPE DATE TIME PICKER 
+2.	Event Location TYPE Text 
+3.	Event Title Type text 
+4.	Event Speakers Text text 
+5.	Company and/or your Title [Optional] Type text 
+6.	Have you attended a class on Azure in the past Boolean 
+7.	Have you attended a class on Today's topic in the past BOOLEAN 
+8.	Have you or your company deployed services to Azure BOOLEAN 
+9.	Are you using any Azure services in production BOOLEAN 
+10.	Are you using other cloud platforms in production?  If so, which platforms drop down  
+11.	What do you want to get out of today? Text
+12.	What ideas or projects are working on or considering for a cloud candidate? text 
+13.	Where do you need the most help to keep you moving toward the cloud? text
+
+       add  plus button 
+
+        -->
+    <div class="col-md-8">
+        <h2>Survey Question</h2>
+        <form>
+            Event Date  <input type="text" name="eventdate">
+            <br>
+            Event Location<br>
+            <input type="text" name="evenloc">
+            Speaker<br>
+            <input type="text" name="speaker">
+           Company/Title<br>
+            <input type="text" name="title">
+            Have you attended an Azure class<br>
+            <input type="text" name="azclass">
+            Have you deployed an Azure solution?<br>
+            <input type="text" name="title">
+            What cloud plaftform are you using ?<br>
+            <input type="text" name="title">
+            </form>
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
 </div>
