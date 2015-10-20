@@ -1,4 +1,5 @@
-﻿using System;
+﻿using mysurveyaspnet4.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,7 +11,23 @@ namespace mysurveyaspnet4.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var survey = new SurveyAnswer()
+            {
+                SurveyId = "1",
+                SurveyName = "FirstSurvey",
+                EventDate = DateTime.Now,
+                SurveyDate = DateTime.Now,
+                Answers = new List<Answers>()
+                {
+                    new Answers()
+                    {
+                        QuestionId = 1,
+                        SelectedAnswer = "myanswer"
+                    }
+                }
+            };
+            ViewBag.Message = "Your application description page.";
+            return View(survey);
         }
 
         public ActionResult About()
@@ -26,5 +43,6 @@ namespace mysurveyaspnet4.Controllers
 
             return View();
         }
+
     }
 }
