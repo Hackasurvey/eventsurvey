@@ -1,4 +1,4 @@
-$r = Invoke-WebRequest -Uri http://hackasurvey-staging.azurewebsites.net -Method POST
+$r = Invoke-WebRequest -Uri http://hackasurvey-staging.azurewebsites.net -Method GET -UseBasicParsing
 
 if ($r.StatusCode –eq 200)
 {
