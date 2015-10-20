@@ -13,6 +13,16 @@ namespace mysurveyaspnet4.Models
         public string SurveyName { get; set; }
         public DateTime SurveyDate { get; set; }
         public DateTime EventDate { get; set; }
+        public string EventLoc { get; set; }
+        public string Eventtitle { get; set; }
+        public string Speaker { get; set; }
+        public string company { get; set; }
+        public bool Azureattended { get; set; }
+    
+        public bool Azuredeploy { get; set; }
+
+
+        public string cloudplat { get; set; }
 
         public List<Answers> Answers { get; set; }
     }

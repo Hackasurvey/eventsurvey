@@ -11,119 +11,80 @@
 </div>
 
 <div class="row">
-    <!--QUESTION FOR SURVEY 
-        
-1.	Event Date  TYPE DATE TIME PICKER 
-2.	Event Location TYPE Text 
-3.	Event Title Type text 
-4.	Event Speakers Text text 
-5.	Company and/or your Title [Optional] Type text 
-6.	Have you attended a class on Azure in the past Boolean 
-7.	Have you attended a class on Today's topic in the past BOOLEAN 
-8.	Have you or your company deployed services to Azure BOOLEAN 
-9.	Are you using any Azure services in production BOOLEAN 
-10.	Are you using other cloud platforms in production?  If so, which platforms drop down  
-11.	What do you want to get out of today? Text
-12.	What ideas or projects are working on or considering for a cloud candidate? text 
-13.	Where do you need the most help to keep you moving toward the cloud? text
+    <!--QUESTION FOR SURVEY
 
-       add  plus button 
+    1.	Event Date  TYPE DATE TIME PICKER
+    2.	Event Location TYPE Text
+    3.	Event Title Type text
+    4.	Event Speakers Text text
+    5.	Company and/or your Title [Optional] Type text
+    6.	Have you attended a class on Azure in the past Boolean
+    7.	Have you attended a class on Today's topic in the past BOOLEAN
+    8.	Have you or your company deployed services to Azure BOOLEAN
+    9.	Are you using any Azure services in production BOOLEAN
+    10.	Are you using other cloud platforms in production?  If so, which platforms drop down
+    11.	What do you want to get out of today? Text
+    12.	What ideas or projects are working on or considering for a cloud candidate? text
+    13.	Where do you need the most help to keep you moving toward the cloud? text
 
-        -->
+           add  plus button
+
+            -->
     <div class="col-md-8">
         <h2>Survey Question</h2>
-        <form action="">
-            <div class="form-group">
-                <label for="eventdate">Event Date</label>
-                <input type="datetime" class="form-control" id="eventdate" placeholder="event date">
-            </div> 
-            <div class="form-group">
-                <label for="eventloc">Event Location</label>
-                <input type="text" class="form-control" id="eventloc" placeholder="event location">
-            </div>
-            <div class="form-group">
-                <label for="eventtitle">Event Title</label>
-                <input type="text" class="form-control" id="eventtitle" placeholder="event title">
-            </div>
-            <div class="form-group">
-                <label for="eventspeaker">Event speaker</label>
-                <input type="text" class="form-control" id="eventspeaker" placeholder="event speaker">
-            </div>
-            <div class="form-group">
-                <label for="company">Your company</label>
-                <input type="text" class="form-control" id="company" placeholder="company name">
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q1" id="q1a" value="yes" checked>
-                    I have attended a class on Azure in the past
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q1" id="q1b" value="no" />
-                    I have not attended a class on Azure in the past
-                </label>
-            </div>
-            <br /><br />
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q2" id="q2a" value="yes" checked>
-                    I have attended a class on Today's topic in the past
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q2" id="q2b" value="no" />
-                    I have not attended a class on Today's topic in the past
-                </label>
-            </div>
-            <br /><br />
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q3" id="q3a" value="yes" checked>
-                    I have deployed services to Azure in the past
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q3" id="q3b" value="no" />
-                    I have not I have deployed services to Azure in the past
-                </label>
-            </div>
-            <br /><br />
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q4" id="q4a" value="yes" checked>
-                    I am using any Azure services in production
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q4" id="q4b" value="no" />
-                    I am not using any Azure services in production
-                </label>
-            </div>
-            <div class="form-group">
-                <label for="q5">Are you using other cloud platforms in production? if so which</label>
-                <input type="text" class="form-control" id="q5" placeholder="other paltform">
-            </div>
-            <div class="form-group">
-                <label for="q6">What do you want to get out of today?</label>
-                <input type="text" class="form-control" id="q6" placeholder="other paltform">
-            </div>
-            <div class="form-group">
-                <label for="q7">What ideas or projects are working on or considering for a cloud candidate?</label>
-                <input type="text" class="form-control" id="q7" placeholder="other paltform">
-            </div>
-            <div class="form-group">
-                <label for="q8">Where do you need the most help to keep you moving toward the cloud? text</label>
-                <input type="text" class="form-control" id="q8" placeholder="other paltform">
-            </div>
-            
-            <button type="submit" class="btn btn-default">Submit</button>
 
-            </form>
-   
+
+            @using (Html.BeginForm("Submitsurvey", "Home",
+           new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post,
+           new { @class = "form-horizontal", role = "form" }))
+            {
+
+           
+                @Html.AntiForgeryToken()
+                <section id="surveyform">
+                    <h4>Thank you for coming to our event</h4>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.EventDate, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.EventDate, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.EventDate, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.EventLoc, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.EventLoc, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.EventLoc, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Eventtitle, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Eventtitle, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Eventtitle, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Speaker, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Speaker, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Speaker, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.company, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.company, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.company, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <br /><br />
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </section>
+            }
+        </div>
+
     </div>
-</div>
