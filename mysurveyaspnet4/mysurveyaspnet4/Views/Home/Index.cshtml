@@ -11,27 +11,83 @@
 </div>
 
 <div class="row">
-    <!--QUESTION FOR SURVEY 
-        
-1.	Event Date  TYPE DATE TIME PICKER 
-2.	Event Location TYPE Text 
-3.	Event Title Type text 
-4.	Event Speakers Text text 
-5.	Company and/or your Title [Optional] Type text 
-6.	Have you attended a class on Azure in the past Boolean 
-7.	Have you attended a class on Today's topic in the past BOOLEAN 
-8.	Have you or your company deployed services to Azure BOOLEAN 
-9.	Are you using any Azure services in production BOOLEAN 
-10.	Are you using other cloud platforms in production?  If so, which platforms drop down  
-11.	What do you want to get out of today? Text
-12.	What ideas or projects are working on or considering for a cloud candidate? text 
-13.	Where do you need the most help to keep you moving toward the cloud? text
+    <!--QUESTION FOR SURVEY
 
-       add  plus button 
+    1.	Event Date  TYPE DATE TIME PICKER
+    2.	Event Location TYPE Text
+    3.	Event Title Type text
+    4.	Event Speakers Text text
+    5.	Company and/or your Title [Optional] Type text
+    6.	Have you attended a class on Azure in the past Boolean
+    7.	Have you attended a class on Today's topic in the past BOOLEAN
+    8.	Have you or your company deployed services to Azure BOOLEAN
+    9.	Are you using any Azure services in production BOOLEAN
+    10.	Are you using other cloud platforms in production?  If so, which platforms drop down
+    11.	What do you want to get out of today? Text
+    12.	What ideas or projects are working on or considering for a cloud candidate? text
+    13.	Where do you need the most help to keep you moving toward the cloud? text
 
-        -->
+           add  plus button
+
+            -->
     <div class="col-md-8">
         <h2>Survey Question</h2>
+<<<<<<< HEAD
+     
+
+            @using (Html.BeginForm("Login", "Account",
+           new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post,
+           new { @class = "form-horizontal", role = "form" }))
+            {
+
+           
+                @Html.AntiForgeryToken()
+                <section id="surveyform">
+                    <h4>Thank you for coming to our event</h4>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.EventDate, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.EventDate, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.EventDate, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.EventLoc, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.EventLoc, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.EventLoc, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Eventtitle, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Eventtitle, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Eventtitle, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Speaker, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Speaker, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Speaker, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.company, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.company, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.company, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <br /><br />
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </section>
+            }
+        </div>
+=======
         <form action="">
             <div class="form-group">
                 <label for="eventdate">Event Date</label>
@@ -122,8 +178,6 @@
             </div>
             
             <button type="submit" class="btn btn-default">Submit</button>
+>>>>>>> b7a2553c8ccefe284e512e372d39da4eff87e28d
 
-            </form>
-   
     </div>
-</div>

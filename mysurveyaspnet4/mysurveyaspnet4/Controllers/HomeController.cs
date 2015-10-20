@@ -29,7 +29,9 @@ namespace mysurveyaspnet4.Controllers
             ViewBag.Message = "Your application description page.";
             return View(survey);
         }
-
+        public ActionResult submitsurvey() {
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
