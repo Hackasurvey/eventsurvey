@@ -12,7 +12,7 @@
             "value": "eastus"
         },
         "databaseAccountName": {
-            "value": "HackaSurveyDB"
+            "value": "hackasurveydb"
         },
         "location": {
             "value": "eastus"
