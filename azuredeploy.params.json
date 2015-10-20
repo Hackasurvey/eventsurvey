@@ -6,7 +6,7 @@
             "value": "HackaSurvey"
         },
         "hostingPlanName": {
-            "value": "Free"
+            "value": "HackaSurveyPlan"
         },
         "siteLocation": {
             "value": "eastus"
