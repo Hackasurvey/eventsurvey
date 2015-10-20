@@ -2,7 +2,7 @@ $r = Invoke-WebRequest -Uri http://hackasurvey-staging.azurewebsites.net -Method
 
 if ($r.StatusCode –eq 200)
 {
-    Write-Host "Life is good!"
+    Write-Host "Life is good!" -ForegroundColor Green
 
     Switch-AzureWebsiteSlot –Name hackasurvey -Slot1 staging
 }
