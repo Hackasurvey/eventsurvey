@@ -32,10 +32,9 @@
             -->
     <div class="col-md-8">
         <h2>Survey Question</h2>
-<<<<<<< HEAD
-     
 
-            @using (Html.BeginForm("Login", "Account",
+
+            @using (Html.BeginForm("Submitsurvey", "Home",
            new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post,
            new { @class = "form-horizontal", role = "form" }))
             {
@@ -87,97 +86,5 @@
                 </section>
             }
         </div>
-=======
-        <form action="">
-            <div class="form-group">
-                <label for="eventdate">Event Date</label>
-                <input type="datetime" class="form-control" id="eventdate" placeholder="event date">
-            </div> 
-            <div class="form-group">
-                <label for="eventloc">Event Location</label>
-                <input type="text" class="form-control" id="eventloc" placeholder="event location">
-            </div>
-            <div class="form-group">
-                <label for="eventtitle">Event Title</label>
-                <input type="text" class="form-control" id="eventtitle" placeholder="event title">
-            </div>
-            <div class="form-group">
-                <label for="eventspeaker">Event speaker</label>
-                <input type="text" class="form-control" id="eventspeaker" placeholder="event speaker">
-            </div>
-            <div class="form-group">
-                <label for="company">Your company</label>
-                <input type="text" class="form-control" id="company" placeholder="company name">
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q1" id="q1a" value="yes" checked>
-                    I have attended a class on Azure in the past
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q1" id="q1b" value="no" />
-                    I have not attended a class on Azure in the past
-                </label>
-            </div>
-            <br /><br />
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q2" id="q2a" value="yes" checked>
-                    I have attended a class on Today's topic in the past
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q2" id="q2b" value="no" />
-                    I have not attended a class on Today's topic in the past
-                </label>
-            </div>
-            <br /><br />
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q3" id="q3a" value="yes" checked>
-                    I have deployed services to Azure in the past
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q3" id="q3b" value="no" />
-                    I have not I have deployed services to Azure in the past
-                </label>
-            </div>
-            <br /><br />
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q4" id="q4a" value="yes" checked>
-                    I am using any Azure services in production
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="q4" id="q4b" value="no" />
-                    I am not using any Azure services in production
-                </label>
-            </div>
-            <div class="form-group">
-                <label for="q5">Are you using other cloud platforms in production? if so which</label>
-                <input type="text" class="form-control" id="q5" placeholder="other paltform">
-            </div>
-            <div class="form-group">
-                <label for="q6">What do you want to get out of today?</label>
-                <input type="text" class="form-control" id="q6" placeholder="other paltform">
-            </div>
-            <div class="form-group">
-                <label for="q7">What ideas or projects are working on or considering for a cloud candidate?</label>
-                <input type="text" class="form-control" id="q7" placeholder="other paltform">
-            </div>
-            <div class="form-group">
-                <label for="q8">Where do you need the most help to keep you moving toward the cloud? text</label>
-                <input type="text" class="form-control" id="q8" placeholder="other paltform">
-            </div>
-            
-            <button type="submit" class="btn btn-default">Submit</button>
->>>>>>> b7a2553c8ccefe284e512e372d39da4eff87e28d
 
     </div>
