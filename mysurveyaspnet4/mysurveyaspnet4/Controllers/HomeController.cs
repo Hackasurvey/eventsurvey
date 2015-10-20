@@ -20,28 +20,15 @@ namespace mysurveyaspnet4.Controllers
 
         public ActionResult Index()
         {
-            var survey = new SurveyAnswer()
-            {
-                SurveyId = "1",
-                SurveyName = "FirstSurvey",
-                EventDate = DateTime.Now,
-                SurveyDate = DateTime.Now,
-                Answers = new List<Answers>()
-                {
-                    new Answers()
-                    {
-                        QuestionId = 1,
-                        SelectedAnswer = "myanswer"
-                    }
-                }
-            };
             ViewBag.Message = "Your application description page.";
-            return View(survey);
+            return View();
         }
 
         [HttpPost]
         public async Task<ActionResult> Submitsurvey(SurveyAnswer theAnswer)
         {
+            theAnswer.SurveyId = Guid.NewGuid().ToString();
+
             var dbprovider = new DocumentDbProvider(endpoint, authkey);
 
             await dbprovider.InitializeDatabase();
