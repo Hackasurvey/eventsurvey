@@ -1,0 +1,65 @@
+2015-10-20T21:45:39.2659072Z Executing the powershell script: C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\tasks\PublishBuildArtifacts\1.0.4\PublishBuildArtifacts.ps1
+2015-10-20T21:45:39.5009064Z Preparing artifact content in staging folder C:\a\1\a...
+2015-10-20T21:45:39.6850772Z Copying all files from C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\bin to C:\a\1\a\drop\bin
+2015-10-20T21:45:39.8802310Z Copying all files from C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin to C:\a\1\a\drop\obj\Debug\Package\PackageTmp\bin
+2015-10-20T21:45:40.8212134Z Max Concurrent Uploads 2, Max Creators 1
+2015-10-20T21:45:41.0259485Z Found 111 files to upload.
+2015-10-20T21:45:41.0299472Z Files found locally 111,
+2015-10-20T21:45:41.0309481Z Files evaluated 0,
+2015-10-20T21:45:41.0309481Z Files left to evaluate 111.,
+2015-10-20T21:45:41.0319497Z Files created without upload 0,
+2015-10-20T21:45:41.0319497Z Files uploaded 0
+2015-10-20T21:45:41.0329498Z Files left to process 111
+2015-10-20T21:45:41.0329498Z ---------------------------
+2015-10-20T21:45:43.6139563Z Files found locally 111,
+2015-10-20T21:45:43.6149562Z Files evaluated 58,
+2015-10-20T21:45:43.6149562Z Files left to evaluate 53.,
+2015-10-20T21:45:43.6149562Z Files created without upload 0,
+2015-10-20T21:45:43.6159566Z Files uploaded 6
+2015-10-20T21:45:43.6159566Z Files left to process 105
+2015-10-20T21:45:43.6169568Z ---------------------------
+2015-10-20T21:45:45.7433182Z Files found locally 111,
+2015-10-20T21:45:45.7523179Z Files evaluated 102,
+2015-10-20T21:45:45.7523179Z Files left to evaluate 9.,
+2015-10-20T21:45:45.7533178Z Files created without upload 0,
+2015-10-20T21:45:45.7533178Z Files uploaded 24
+2015-10-20T21:45:45.7543175Z Files left to process 87
+2015-10-20T21:45:45.7543175Z ---------------------------
+2015-10-20T21:45:47.7680706Z Files found locally 111,
+2015-10-20T21:45:47.7690969Z Files evaluated 111,
+2015-10-20T21:45:47.7690969Z Files left to evaluate 0.,
+2015-10-20T21:45:47.7700727Z Files created without upload 0,
+2015-10-20T21:45:47.7710710Z Files uploaded 45
+2015-10-20T21:45:47.7720693Z Files left to process 66
+2015-10-20T21:45:47.7720693Z ---------------------------
+2015-10-20T21:45:49.7743628Z Files found locally 111,
+2015-10-20T21:45:49.7743628Z Files evaluated 111,
+2015-10-20T21:45:49.7753640Z Files left to evaluate 0.,
+2015-10-20T21:45:49.7753640Z Files created without upload 0,
+2015-10-20T21:45:49.7763650Z Files uploaded 59
+2015-10-20T21:45:49.7770521Z Files left to process 52
+2015-10-20T21:45:49.7776957Z ---------------------------
+2015-10-20T21:45:51.7796604Z Files found locally 111,
+2015-10-20T21:45:51.7796604Z Files evaluated 111,
+2015-10-20T21:45:51.7806590Z Files left to evaluate 0.,
+2015-10-20T21:45:51.7816595Z Files created without upload 0,
+2015-10-20T21:45:51.7816595Z Files uploaded 68
+2015-10-20T21:45:51.7826603Z Files left to process 43
+2015-10-20T21:45:51.7836569Z ---------------------------
+2015-10-20T21:45:53.7852485Z Files found locally 111,
+2015-10-20T21:45:53.7852485Z Files evaluated 111,
+2015-10-20T21:45:53.7862501Z Files left to evaluate 0.,
+2015-10-20T21:45:53.7872482Z Files created without upload 0,
+2015-10-20T21:45:53.7875778Z Files uploaded 87
+2015-10-20T21:45:53.7882493Z Files left to process 24
+2015-10-20T21:45:53.7890464Z ---------------------------
+2015-10-20T21:45:55.7904763Z Files found locally 111,
+2015-10-20T21:45:55.7914952Z Files evaluated 111,
+2015-10-20T21:45:55.7917960Z Files left to evaluate 0.,
+2015-10-20T21:45:55.7963384Z Files created without upload 0,
+2015-10-20T21:45:55.7998217Z Files uploaded 100
+2015-10-20T21:45:55.7998217Z Files left to process 11
+2015-10-20T21:45:55.8008385Z ---------------------------
+2015-10-20T21:45:57.8031904Z Created 0 files without uploading content. Total files processed 111
+2015-10-20T21:45:58.0288967Z Uploaded artifact 'C:\a\1\a\drop' to container folder 'drop' of build 58.
+2015-10-20T21:45:58.5188066Z Associated artifact 41 with build 58

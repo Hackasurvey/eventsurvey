@@ -1,0 +1,12 @@
+2015-10-20T21:43:47.9932123Z StatusCode        : 200
+2015-10-20T21:43:47.9932123Z StatusDescription : OK
+2015-10-20T21:43:47.9942100Z Content           : {{}}
+2015-10-20T21:43:47.9942100Z RawContent        : HTTP/1.1 200 OK
+2015-10-20T21:43:47.9952098Z                     X-AspNetMvc-Version: 5.2
+2015-10-20T21:43:47.9952098Z                     Content-Length: 0
+2015-10-20T21:43:47.9962112Z                     Cache-Control: private
+2015-10-20T21:43:47.9972104Z                     Date: Tue, 20 Oct 2015 21:43:46 GMT
+2015-10-20T21:43:47.9972104Z                     Set-Cookie: ARRAffinity=db2657e210bea3161d532c0151334da0efa4e12d7fd572269ffa8...
+2015-10-20T21:43:47.9982101Z Headers           : {{[X-AspNetMvc-Version, 5.2], [Content-Length, 0], [Cache-Control, private], [Date, Tue, 20 Oct 
+2015-10-20T21:43:47.9992101Z                     2015 21:43:46 GMT]...}}
+2015-10-20T21:43:47.9992101Z RawContentLength  : 0
