@@ -3,13 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "siteName": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "HackaSurvey"
     },
     "hostingPlanName": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "hackaSurveyPlan"
     },
     "siteLocation": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "eastus"
     },
     "sku": {
       "type": "string",
@@ -31,10 +34,12 @@
       "defaultValue": "0"
     },
     "databaseAccountName": {
-        "type": "string"
+      "type": "string",
+      "defaultValue": "hackasurveydb"
     },
     "location": {
-        "type": "string"
+        "type": "string",
+        "defaultValue": "eastus"
     }
   },
   "resources": [
