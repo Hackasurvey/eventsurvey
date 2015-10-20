@@ -1,0 +1,492 @@
+2015-10-20T21:45:03.6662610Z Executing the powershell script: C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\tasks\VSBuild\1.0.15\VSBuild.ps1
+2015-10-20T21:45:04.8709254Z C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\agent\worker\tools\NuGet.exe restore "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln" -NonInteractive
+2015-10-20T21:45:17.2812794Z Installing 'jQuery.Validation 1.11.1'.
+2015-10-20T21:45:17.2822798Z Installing 'Antlr 3.4.1.9004'.
+2015-10-20T21:45:17.2822798Z Installing 'bootstrap 3.0.0'.
+2015-10-20T21:45:17.2832790Z Installing 'EntityFramework 6.1.3'.
+2015-10-20T21:45:17.2832790Z Installing 'jQuery 1.10.2'.
+2015-10-20T21:45:17.3802813Z Installing 'Microsoft.AspNet.Identity.Core 2.2.1'.
+2015-10-20T21:45:17.6772811Z Successfully installed 'Antlr 3.4.1.9004'.
+2015-10-20T21:45:17.7082807Z Successfully installed 'jQuery 1.10.2'.
+2015-10-20T21:45:17.7122803Z Successfully installed 'Microsoft.AspNet.Identity.Core 2.2.1'.
+2015-10-20T21:45:17.7252812Z Successfully installed 'jQuery.Validation 1.11.1'.
+2015-10-20T21:45:17.7332810Z Successfully installed 'bootstrap 3.0.0'.
+2015-10-20T21:45:17.8722786Z Installing 'Microsoft.AspNet.Identity.EntityFramework 2.2.1'.
+2015-10-20T21:45:17.9632804Z Installing 'Microsoft.AspNet.Mvc 5.2.3'.
+2015-10-20T21:45:17.9752809Z Successfully installed 'Microsoft.AspNet.Identity.EntityFramework 2.2.1'.
+2015-10-20T21:45:17.9812801Z Installing 'Microsoft.AspNet.Razor 3.2.3'.
+2015-10-20T21:45:17.9992802Z Installing 'Microsoft.AspNet.WebPages 3.2.3'.
+2015-10-20T21:45:18.0542804Z Installing 'Microsoft.AspNet.Identity.Owin 2.2.1'.
+2015-10-20T21:45:18.0612810Z Installing 'Microsoft.AspNet.Web.Optimization 1.1.3'.
+2015-10-20T21:45:18.1012785Z Installing 'Microsoft.Azure.DocumentDB 1.5.0'.
+2015-10-20T21:45:18.1172810Z Successfully installed 'Microsoft.AspNet.Mvc 5.2.3'.
+2015-10-20T21:45:18.3869163Z Installing 'Microsoft.CodeDom.Providers.DotNetCompilerPlatform 1.0.0'.
+2015-10-20T21:45:18.3879156Z Successfully installed 'Microsoft.AspNet.Web.Optimization 1.1.3'.
+2015-10-20T21:45:18.3909160Z Successfully installed 'Microsoft.AspNet.Identity.Owin 2.2.1'.
+2015-10-20T21:45:18.3939158Z Successfully installed 'Microsoft.Azure.DocumentDB 1.5.0'.
+2015-10-20T21:45:18.4089165Z Successfully installed 'Microsoft.AspNet.Razor 3.2.3'.
+2015-10-20T21:45:18.4249150Z Successfully installed 'Microsoft.AspNet.WebPages 3.2.3'.
+2015-10-20T21:45:18.4879166Z Successfully installed 'Microsoft.CodeDom.Providers.DotNetCompilerPlatform 1.0.0'.
+2015-10-20T21:45:18.6469165Z Installing 'Microsoft.Owin.Host.SystemWeb 3.0.1'.
+2015-10-20T21:45:18.6729180Z Installing 'Microsoft.Owin 3.0.1'.
+2015-10-20T21:45:18.7214736Z Installing 'Microsoft.jQuery.Unobtrusive.Validation 3.2.3'.
+2015-10-20T21:45:18.7224744Z Installing 'Microsoft.Net.Compilers 1.0.0'.
+2015-10-20T21:45:18.7344748Z Installing 'Microsoft.Owin.Security 3.0.1'.
+2015-10-20T21:45:18.8813621Z Successfully installed 'Microsoft.Owin 3.0.1'.
+2015-10-20T21:45:18.9033609Z Installing 'Microsoft.Owin.Security.Cookies 3.0.1'.
+2015-10-20T21:45:19.1553601Z Successfully installed 'Microsoft.jQuery.Unobtrusive.Validation 3.2.3'.
+2015-10-20T21:45:19.1573605Z Installing 'Microsoft.Owin.Security.Facebook 3.0.1'.
+2015-10-20T21:45:19.1753640Z Successfully installed 'Microsoft.Owin.Host.SystemWeb 3.0.1'.
+2015-10-20T21:45:19.1843625Z Successfully installed 'Microsoft.Owin.Security 3.0.1'.
+2015-10-20T21:45:19.2163619Z Installing 'Microsoft.Owin.Security.Google 3.0.1'.
+2015-10-20T21:45:19.2303624Z Successfully installed 'EntityFramework 6.1.3'.
+2015-10-20T21:45:19.2703613Z Successfully installed 'Microsoft.Owin.Security.Cookies 3.0.1'.
+2015-10-20T21:45:19.3333620Z Successfully installed 'Microsoft.Owin.Security.Google 3.0.1'.
+2015-10-20T21:45:19.4956899Z Successfully installed 'Microsoft.Owin.Security.Facebook 3.0.1'.
+2015-10-20T21:45:19.6612131Z Successfully installed 'Microsoft.Net.Compilers 1.0.0'.
+2015-10-20T21:45:19.7052127Z Installing 'Microsoft.Web.Infrastructure 1.0.0.0'.
+2015-10-20T21:45:19.7062134Z Installing 'Microsoft.Owin.Security.Twitter 3.0.1'.
+2015-10-20T21:45:19.7152123Z Installing 'Microsoft.Owin.Security.OAuth 3.0.1'.
+2015-10-20T21:45:19.7282125Z Installing 'Microsoft.Owin.Security.MicrosoftAccount 3.0.1'.
+2015-10-20T21:45:19.7432121Z Installing 'Modernizr 2.6.2'.
+2015-10-20T21:45:19.7562123Z Installing 'Owin 1.0'.
+2015-10-20T21:45:19.7672116Z Installing 'Newtonsoft.Json 6.0.4'.
+2015-10-20T21:45:19.7992130Z Successfully installed 'Microsoft.Web.Infrastructure 1.0.0.0'.
+2015-10-20T21:45:19.8922132Z Successfully installed 'Microsoft.Owin.Security.OAuth 3.0.1'.
+2015-10-20T21:45:19.8982121Z Successfully installed 'Microsoft.Owin.Security.MicrosoftAccount 3.0.1'.
+2015-10-20T21:45:19.9002125Z Successfully installed 'Modernizr 2.6.2'.
+2015-10-20T21:45:19.9912128Z Successfully installed 'Microsoft.Owin.Security.Twitter 3.0.1'.
+2015-10-20T21:45:20.0741930Z Successfully installed 'Owin 1.0'.
+2015-10-20T21:45:20.1231934Z Installing 'Respond 1.2.0'.
+2015-10-20T21:45:20.1851943Z Installing 'WebGrease 1.5.2'.
+2015-10-20T21:45:20.2111941Z Successfully installed 'Respond 1.2.0'.
+2015-10-20T21:45:20.6131527Z Successfully installed 'WebGrease 1.5.2'.
+2015-10-20T21:45:20.9775117Z Successfully installed 'Newtonsoft.Json 6.0.4'.
+2015-10-20T21:45:21.2142320Z C:\Program Files (x86)\MSBuild\14.0\bin\msbuild.exe "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln" /nologo /m /nr:false /t:"Clean" /fl /flp:"logfile=C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln-clean.log" /dl:CentralLogger,"C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\agent\worker\Microsoft.TeamFoundation.DistributedTask.MSBuild.Logger.dll"*ForwardingLogger,"C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\agent\worker\Microsoft.TeamFoundation.DistributedTask.MSBuild.Logger.dll" /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="C:\a\1\a" /p:platform="any cpu" /p:configuration="debug" /p:VisualStudioVersion="14.0"
+2015-10-20T21:45:21.5264163Z Build started 10/20/2015 9:45:21 PM.
+2015-10-20T21:45:21.5574166Z      1>Project "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln" on node 1 (Clean target(s)).
+2015-10-20T21:45:21.5584150Z      1>ValidateSolutionConfiguration:
+2015-10-20T21:45:21.5584150Z          Building solution configuration "debug|any cpu".
+2015-10-20T21:45:21.7094154Z        The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+2015-10-20T21:45:21.7174149Z      1>Project "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln" (1) is building "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\mysurveyaspnet4.csproj" (2) on node 1 (Clean target(s)).
+2015-10-20T21:45:21.7184159Z      2>CoreClean:
+2015-10-20T21:45:21.7184159Z          Creating directory "obj\Debug\".
+2015-10-20T21:45:22.2404180Z      2>Done Building Project "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\mysurveyaspnet4.csproj" (Clean target(s)).
+2015-10-20T21:45:22.2414172Z      1>Done Building Project "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln" (Clean target(s)).
+2015-10-20T21:45:22.2436059Z Build succeeded.
+2015-10-20T21:45:22.2474157Z     0 Warning(s)
+2015-10-20T21:45:22.2484171Z     0 Error(s)
+2015-10-20T21:45:22.2484171Z Time Elapsed 00:00:00.72
+2015-10-20T21:45:22.2544179Z C:\Program Files (x86)\MSBuild\14.0\bin\msbuild.exe "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln" /nologo /m /nr:false /fl /flp:"logfile=C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln.log" /dl:CentralLogger,"C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\agent\worker\Microsoft.TeamFoundation.DistributedTask.MSBuild.Logger.dll"*ForwardingLogger,"C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\agent\worker\Microsoft.TeamFoundation.DistributedTask.MSBuild.Logger.dll" /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="C:\a\1\a" /p:platform="any cpu" /p:configuration="debug" /p:VisualStudioVersion="14.0"
+2015-10-20T21:45:22.3494157Z Build started 10/20/2015 9:45:22 PM.
+2015-10-20T21:45:22.3814148Z      1>Project "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln" on node 1 (default targets).
+2015-10-20T21:45:22.3814148Z      1>ValidateSolutionConfiguration:
+2015-10-20T21:45:22.3824156Z          Building solution configuration "debug|any cpu".
+2015-10-20T21:45:22.5244157Z        The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+2015-10-20T21:45:22.5364162Z      1>Project "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln" (1) is building "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\mysurveyaspnet4.csproj" (2) on node 1 (default targets).
+2015-10-20T21:45:22.5364162Z      2>PrepareForBuild:
+2015-10-20T21:45:22.5364162Z          Creating directory "bin\".
+2015-10-20T21:45:23.2081658Z        CoreCompile:
+2015-10-20T21:45:23.2091659Z          C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\build\..\tools\csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\a\1\s\mysurveyaspnet4\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Azure.DocumentDB.1.5.0\lib\net40\Microsoft.Azure.Documents.Client.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:C:\a\1\s\mysurveyaspnet4\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Owin.1.0\lib\net40\Owin.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.ComponentModel.DataAnnotations.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Configuration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.EnterpriseServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Net.Http.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Net.Http.WebRequest.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Abstractions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.ApplicationServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.DynamicData.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Entity.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Extensions.dll" /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Routing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Services.dll" /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll /reference:C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" /reference:C:\a\1\s\mysurveyaspnet4\packages\WebGrease.1.5.2\lib\WebGrease.dll /debug+ /debug:full /optimize- /out:obj\Debug\mysurveyaspnet4.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /target:library /utf8output App_Start\BundleConfig.cs App_Start\FilterConfig.cs App_Start\IdentityConfig.cs App_Start\RouteConfig.cs App_Start\Startup.Auth.cs Controllers\AccountController.cs Controllers\HomeController.cs Controllers\ManageController.cs Global.asax.cs Models\AccountViewModels.cs Models\DocumentDBProvider.cs Models\IdentityModels.cs Models\ManageViewModels.cs Models\Survey.cs Properties\AssemblyInfo.cs Startup.cs "C:\Users\buildguest\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+2015-10-20T21:45:26.1413018Z        _CopyFilesMarkedCopyLocal:
+2015-10-20T21:45:26.1413018Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll" to "bin\Antlr3.Runtime.dll".
+2015-10-20T21:45:26.1423022Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll" to "bin\EntityFramework.dll".
+2015-10-20T21:45:26.1473038Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll" to "bin\EntityFramework.SqlServer.dll".
+2015-10-20T21:45:26.1493299Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll" to "bin\Microsoft.AspNet.Identity.Core.dll".
+2015-10-20T21:45:26.1503016Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll" to "bin\Microsoft.AspNet.Identity.EntityFramework.dll".
+2015-10-20T21:45:26.1513021Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll" to "bin\Microsoft.AspNet.Identity.Owin.dll".
+2015-10-20T21:45:26.1523019Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Azure.DocumentDB.1.5.0\lib\net40\Microsoft.Azure.Documents.Client.dll" to "bin\Microsoft.Azure.Documents.Client.dll".
+2015-10-20T21:45:26.1533011Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" to "bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll".
+2015-10-20T21:45:26.1543015Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll" to "bin\Microsoft.Owin.dll".
+2015-10-20T21:45:26.1553032Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll" to "bin\Microsoft.Owin.Host.SystemWeb.dll".
+2015-10-20T21:45:26.1553032Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll" to "bin\Microsoft.Owin.Security.Cookies.dll".
+2015-10-20T21:45:26.1563016Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll" to "bin\Microsoft.Owin.Security.dll".
+2015-10-20T21:45:26.1573016Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll" to "bin\Microsoft.Owin.Security.Facebook.dll".
+2015-10-20T21:45:26.1583011Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll" to "bin\Microsoft.Owin.Security.Google.dll".
+2015-10-20T21:45:26.1583011Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll" to "bin\Microsoft.Owin.Security.MicrosoftAccount.dll".
+2015-10-20T21:45:26.1593020Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll" to "bin\Microsoft.Owin.Security.OAuth.dll".
+2015-10-20T21:45:26.1603014Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll" to "bin\Microsoft.Owin.Security.Twitter.dll".
+2015-10-20T21:45:26.1613009Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" to "bin\Microsoft.Web.Infrastructure.dll".
+2015-10-20T21:45:26.1613009Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll" to "bin\Newtonsoft.Json.dll".
+2015-10-20T21:45:26.1623016Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Owin.1.0\lib\net40\Owin.dll" to "bin\Owin.dll".
+2015-10-20T21:45:26.1633017Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll" to "bin\System.Web.Helpers.dll".
+2015-10-20T21:45:26.1643011Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll" to "bin\System.Web.Mvc.dll".
+2015-10-20T21:45:26.1653004Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll" to "bin\System.Web.Optimization.dll".
+2015-10-20T21:45:26.1663019Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll" to "bin\System.Web.Razor.dll".
+2015-10-20T21:45:26.1673010Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll" to "bin\System.Web.WebPages.Deployment.dll".
+2015-10-20T21:45:26.1683118Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll" to "bin\System.Web.WebPages.dll".
+2015-10-20T21:45:26.2450073Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll" to "bin\System.Web.WebPages.Razor.dll".
+2015-10-20T21:45:26.2460062Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\WebGrease.1.5.2\lib\WebGrease.dll" to "bin\WebGrease.dll".
+2015-10-20T21:45:26.2470069Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Azure.DocumentDB.1.5.0\lib\net40\Microsoft.Azure.Documents.Client.xml" to "bin\Microsoft.Azure.Documents.Client.xml".
+2015-10-20T21:45:26.2490061Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" to "bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml".
+2015-10-20T21:45:26.2500065Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.xml" to "bin\System.Web.Helpers.xml".
+2015-10-20T21:45:26.2510069Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.xml" to "bin\System.Web.Mvc.xml".
+2015-10-20T21:45:26.2530064Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.xml" to "bin\System.Web.Optimization.xml".
+2015-10-20T21:45:26.2530064Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.xml" to "bin\System.Web.Razor.xml".
+2015-10-20T21:45:26.2540091Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.xml" to "bin\System.Web.WebPages.xml".
+2015-10-20T21:45:26.2563682Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.xml" to "bin\System.Web.WebPages.Deployment.xml".
+2015-10-20T21:45:26.2573107Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.xml" to "bin\System.Web.WebPages.Razor.xml".
+2015-10-20T21:45:26.3591097Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.pdb" to "bin\Antlr3.Runtime.pdb".
+2015-10-20T21:45:26.3591097Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.xml" to "bin\Newtonsoft.Json.xml".
+2015-10-20T21:45:26.3611095Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.xml" to "bin\EntityFramework.xml".
+2015-10-20T21:45:26.3701092Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.xml" to "bin\EntityFramework.SqlServer.xml".
+2015-10-20T21:45:26.3701092Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.xml" to "bin\Microsoft.AspNet.Identity.Core.xml".
+2015-10-20T21:45:26.3711096Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.xml" to "bin\Microsoft.AspNet.Identity.Owin.xml".
+2015-10-20T21:45:26.3711096Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.xml" to "bin\Microsoft.AspNet.Identity.EntityFramework.xml".
+2015-10-20T21:45:26.3721093Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.xml" to "bin\Microsoft.Owin.xml".
+2015-10-20T21:45:26.3721093Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.xml" to "bin\Microsoft.Owin.Host.SystemWeb.xml".
+2015-10-20T21:45:26.3731094Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.xml" to "bin\Microsoft.Owin.Security.xml".
+2015-10-20T21:45:26.3731094Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.xml" to "bin\Microsoft.Owin.Security.Facebook.xml".
+2015-10-20T21:45:26.3741094Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.xml" to "bin\Microsoft.Owin.Security.Cookies.xml".
+2015-10-20T21:45:26.3741094Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.xml" to "bin\Microsoft.Owin.Security.OAuth.xml".
+2015-10-20T21:45:26.3751097Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.xml" to "bin\Microsoft.Owin.Security.Google.xml".
+2015-10-20T21:45:26.3751097Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.xml" to "bin\Microsoft.Owin.Security.Twitter.xml".
+2015-10-20T21:45:26.3761096Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.xml" to "bin\Microsoft.Owin.Security.MicrosoftAccount.xml".
+2015-10-20T21:45:26.3811098Z        _CopyOutOfDateSourceItemsToOutputDirectory:
+2015-10-20T21:45:26.3821091Z          Creating directory "bin\roslyn".
+2015-10-20T21:45:26.3881146Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\csc.exe" to "bin\roslyn\csc.exe".
+2015-10-20T21:45:26.3881146Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.Build.Tasks.CodeAnalysis.dll" to "bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll".
+2015-10-20T21:45:26.3891100Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.CSharp.dll" to "bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll".
+2015-10-20T21:45:26.3891100Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.dll" to "bin\roslyn\Microsoft.CodeAnalysis.dll".
+2015-10-20T21:45:26.4697458Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.VisualBasic.dll" to "bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll".
+2015-10-20T21:45:26.4747464Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CSharp.Core.targets" to "bin\roslyn\Microsoft.CSharp.Core.targets".
+2015-10-20T21:45:26.4758117Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.VisualBasic.Core.targets" to "bin\roslyn\Microsoft.VisualBasic.Core.targets".
+2015-10-20T21:45:26.4767451Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\System.Collections.Immutable.dll" to "bin\roslyn\System.Collections.Immutable.dll".
+2015-10-20T21:45:26.4797468Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\System.Reflection.Metadata.dll" to "bin\roslyn\System.Reflection.Metadata.dll".
+2015-10-20T21:45:26.4807463Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\vbc.exe" to "bin\roslyn\vbc.exe".
+2015-10-20T21:45:26.4817463Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe" to "bin\roslyn\VBCSCompiler.exe".
+2015-10-20T21:45:26.4817463Z          Copying file from "C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe.config" to "bin\roslyn\VBCSCompiler.exe.config".
+2015-10-20T21:45:26.4827464Z        _CopyAppConfigFile:
+2015-10-20T21:45:26.4837458Z          Copying file from "Web.config" to "bin\mysurveyaspnet4.dll.config".
+2015-10-20T21:45:26.4837458Z        CopyFilesToOutputDirectory:
+2015-10-20T21:45:26.4847459Z          Copying file from "obj\Debug\mysurveyaspnet4.dll" to "bin\mysurveyaspnet4.dll".
+2015-10-20T21:45:26.4847459Z          mysurveyaspnet4 -> C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\bin\mysurveyaspnet4.dll
+2015-10-20T21:45:26.4857452Z          Copying file from "obj\Debug\mysurveyaspnet4.pdb" to "bin\mysurveyaspnet4.pdb".
+2015-10-20T21:45:26.5458855Z        ValidateGlobalPackageSetting:
+2015-10-20T21:45:26.5468843Z          $(PackageAsSingleFile) is true
+2015-10-20T21:45:26.5478850Z          $(PackageFileName) is C:\a\1\a\mysurveyaspnet4.zip. Validating...
+2015-10-20T21:45:26.5478850Z        CollectFilesFromIntermediateAssembly:
+2015-10-20T21:45:26.5488851Z          Gather all files from Project items @(IntermediateAssembly). Adding:
+2015-10-20T21:45:26.5498848Z          bin\mysurveyaspnet4.dll to bin\mysurveyaspnet4.dll
+2015-10-20T21:45:26.5508847Z          bin\mysurveyaspnet4.pdb to bin\mysurveyaspnet4.pdb
+2015-10-20T21:45:26.5518851Z        CollectFilesFromContent:
+2015-10-20T21:45:26.5528845Z          Gather all files from Project items @(Content). Adding:
+2015-10-20T21:45:26.5538841Z          Content\bootstrap.css;Content\bootstrap.min.css;favicon.ico;fonts\glyphicons-halflings-regular.svg;Global.asax;Content\Site.css;Scripts\bootstrap.js;Scripts\bootstrap.min.js;BuildStartedNotify.ps1;Scripts\jquery-1.10.2.js;Scripts\jquery-1.10.2.min.js;Scripts\jquery.validate.js;Scripts\jquery.validate.min.js;Scripts\jquery.validate.unobtrusive.js;Scripts\jquery.validate.unobtrusive.min.js;Scripts\modernizr-2.6.2.js;Scripts\respond.js;Scripts\respond.min.js;Scripts\_references.js;Web.config;Web.Debug.config;Web.Release.config;Views\Web.config;Views\_ViewStart.cshtml;Views\Shared\Error.cshtml;Views\Shared\_Layout.cshtml;Views\Home\About.cshtml;Views\Home\Contact.cshtml;Views\Home\Index.cshtml;Views\Account\_ExternalLoginsListPartial.cshtml;Views\Account\ConfirmEmail.cshtml;Views\Account\ExternalLoginConfirmation.cshtml;Views\Account\ExternalLoginFailure.cshtml;Views\Account\ForgotPassword.cshtml;Views\Account\ForgotPasswordConfirmation.cshtml;Views\Account\Login.cshtml;Views\Account\Register.cshtml;Views\Account\ResetPassword.cshtml;Views\Account\ResetPasswordConfirmation.cshtml;Views\Account\SendCode.cshtml;Views\Account\VerifyCode.cshtml;Views\Manage\AddPhoneNumber.cshtml;Views\Manage\ChangePassword.cshtml;Views\Manage\Index.cshtml;Views\Manage\ManageLogins.cshtml;Views\Manage\SetPassword.cshtml;Views\Manage\VerifyPhoneNumber.cshtml;Views\Shared\Lockout.cshtml;Views\Shared\_LoginPartial.cshtml;WepAppSlotSwapIfAllGood.ps1;Views\Home\Success.cshtml;fonts\glyphicons-halflings-regular.woff;fonts\glyphicons-halflings-regular.ttf;fonts\glyphicons-halflings-regular.eot;packages.config;Scripts\jquery-1.10.2.min.map
+2015-10-20T21:45:26.5548848Z        CollectFilesFromIntermediateSatelliteAssembliesWithTargetPath:
+2015-10-20T21:45:26.5562755Z          Gather all files from Project output (IntermediateSatelliteAssembliesWithTargetPath). Adding:
+2015-10-20T21:45:26.5579525Z        CollectFilesFromReference:
+2015-10-20T21:45:26.5588854Z          Gather all files from Project items @(ReferenceCopyLocalPaths,ReferenceComWrappersToCopyLocal,ResolvedIsolatedComModules,_DeploymentLooseManifestFile,NativeReferenceFile).
+2015-10-20T21:45:26.5638858Z        CollectFilesFromAllExtraReferenceFiles:
+2015-10-20T21:45:26.5638858Z          Gather all files from Project items @(AllExtraReferenceFiles). Adding:
+2015-10-20T21:45:26.5778854Z        CollectFilesFrom_SourceItemsToCopyToOutputDirectory:
+2015-10-20T21:45:26.5778854Z          Gather all files from Project items @(_SourceItemsToCopyToOutputDirectoryAlways,_SourceItemsToCopyToOutputDirectory). Adding:
+2015-10-20T21:45:26.5788850Z          bin\roslyn\csc.exe;bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll;bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll;bin\roslyn\Microsoft.CodeAnalysis.dll;bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll;bin\roslyn\Microsoft.CSharp.Core.targets;bin\roslyn\Microsoft.VisualBasic.Core.targets;bin\roslyn\System.Collections.Immutable.dll;bin\roslyn\System.Reflection.Metadata.dll;bin\roslyn\vbc.exe;bin\roslyn\VBCSCompiler.exe;bin\roslyn\VBCSCompiler.exe.config
+2015-10-20T21:45:26.5798848Z        CollectFilesFrom_binDeployableAssemblies:
+2015-10-20T21:45:26.5808854Z          Gather all files from Project items @(_binDeployableAssemblies). Adding:
+2015-10-20T21:45:26.5918854Z        PipelineCollectFilesPhase:
+2015-10-20T21:45:26.5928853Z          Publish Pipeline Collect Files Phase
+2015-10-20T21:45:26.6218866Z        PreTransformWebConfig:
+2015-10-20T21:45:26.6218866Z          Found The following for Config tranformation:
+2015-10-20T21:45:26.6228860Z          Web.config
+2015-10-20T21:45:26.6228860Z          Creating directory "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\TransformWebConfig\transformed\".
+2015-10-20T21:45:26.6238861Z          Creating directory "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\TransformWebConfig\transformed\Views\".
+2015-10-20T21:45:26.6288862Z          Copying Web.config to obj\Debug\TransformWebConfig\original\Web.config.
+2015-10-20T21:45:26.6298854Z          Copying C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\Web.Debug.config to obj\Debug\TransformWebConfig\assist\Web.config.
+2015-10-20T21:45:26.6348856Z        TransformWebConfigCore:
+2015-10-20T21:45:26.6358859Z          Transforming Source File: C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\Web.config
+2015-10-20T21:45:26.6458854Z            Applying Transform File: C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\Web.Debug.config
+2015-10-20T21:45:26.6538854Z            Output File: obj\Debug\TransformWebConfig\transformed\Web.config
+2015-10-20T21:45:26.6708858Z          Transformation succeeded
+2015-10-20T21:45:26.6728858Z        PostTransformWebConfig:
+2015-10-20T21:45:26.6738854Z          Transformed Web.config using C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\Web.Debug.config into obj\Debug\TransformWebConfig\transformed\Web.config.
+2015-10-20T21:45:26.6788858Z        PipelineTransformPhase:
+2015-10-20T21:45:26.6788858Z          Publish Pipeline Transform Phase
+2015-10-20T21:45:26.6858858Z        PreAutoParameterizationWebConfigConnectionStrings:
+2015-10-20T21:45:26.6858858Z          Creating directory "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\CSAutoParameterize\transformed\Views\".
+2015-10-20T21:45:26.6878860Z          Copying Views\Web.config to obj\Debug\CSAutoParameterize\original\Views\Web.config.
+2015-10-20T21:45:26.6888851Z          Copying obj\Debug\TransformWebConfig\transformed\Web.config to obj\Debug\CSAutoParameterize\original\Web.config.
+2015-10-20T21:45:26.6968856Z        AutoParameterizationWebConfigConnectionStringsCore:
+2015-10-20T21:45:26.6968856Z          Transforming Source File: C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\Views\Web.config
+2015-10-20T21:45:26.7018857Z            Applying Transform File: <?xml version="1.0"?>
+2015-10-20T21:45:26.7028858Z                  <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+2015-10-20T21:45:26.7028858Z                    <connectionStrings>
+2015-10-20T21:45:26.7028858Z                      <add
+2015-10-20T21:45:26.7038863Z                        connectionString="{% token='$(ReplacableToken_#(parameter)_#(tokennumber))' xpathlocator='name' parameter='$(name)-Web.config Connection String' description='$(name) Connection String used in web.config by the application to access the database.' defaultValue='$(connectionString)' tags='SqlConnectionString' %}"
+2015-10-20T21:45:26.7038863Z                        xdt:Transform="SetTokenizedAttributes(connectionString)" xdt:SupressWarnings="True" />
+2015-10-20T21:45:26.7048860Z                    </connectionStrings>
+2015-10-20T21:45:26.7048860Z                  </configuration>
+2015-10-20T21:45:26.8062963Z            No element in the source document matches '/configuration/connectionStrings'
+2015-10-20T21:45:26.8072964Z            Not executing SetTokenizedAttributes (transform line 6, 15)
+2015-10-20T21:45:26.8072964Z            Output File: obj\Debug\CSAutoParameterize\transformed\Views\Web.config
+2015-10-20T21:45:26.8082958Z          Transformation succeeded
+2015-10-20T21:45:26.8123391Z          Transforming Source File: C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\TransformWebConfig\transformed\Web.config
+2015-10-20T21:45:26.8132958Z            Applying Transform File: <?xml version="1.0"?>
+2015-10-20T21:45:26.8142962Z                  <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+2015-10-20T21:45:26.8142962Z                    <connectionStrings>
+2015-10-20T21:45:26.8152955Z                      <add
+2015-10-20T21:45:26.8152955Z                        connectionString="{% token='$(ReplacableToken_#(parameter)_#(tokennumber))' xpathlocator='name' parameter='$(name)-Web.config Connection String' description='$(name) Connection String used in web.config by the application to access the database.' defaultValue='$(connectionString)' tags='SqlConnectionString' %}"
+2015-10-20T21:45:26.8162955Z                        xdt:Transform="SetTokenizedAttributes(connectionString)" xdt:SupressWarnings="True" />
+2015-10-20T21:45:26.8162955Z                    </connectionStrings>
+2015-10-20T21:45:26.8162955Z                  </configuration>
+2015-10-20T21:45:26.8302951Z            Output File: obj\Debug\CSAutoParameterize\transformed\Web.config
+2015-10-20T21:45:26.8312958Z          Transformation succeeded
+2015-10-20T21:45:27.0567084Z        PostAutoParameterizationWebConfigConnectionStrings:
+2015-10-20T21:45:27.0577091Z          Auto ConnectionString Transformed Views\Web.config into obj\Debug\CSAutoParameterize\transformed\Views\Web.config.
+2015-10-20T21:45:27.0587086Z          Auto ConnectionString Transformed obj\Debug\TransformWebConfig\transformed\Web.config into obj\Debug\CSAutoParameterize\transformed\Web.config.
+2015-10-20T21:45:27.0639417Z        PipelineMsdeploySpecificTransformPhase:
+2015-10-20T21:45:27.0658094Z          Publish Pipeline Deploy phase Stage PipelineMsdeploySpecificTransformPhase
+2015-10-20T21:45:27.0687077Z        CopyAllFilesToSingleFolderForMsdeploy:
+2015-10-20T21:45:27.0698875Z          Creating directory "obj\Debug\Package\PackageTmp".
+2015-10-20T21:45:27.0707084Z          Copying all files to temporary location below for package/publish:
+2015-10-20T21:45:27.0707084Z          obj\Debug\Package\PackageTmp.
+2015-10-20T21:45:27.0717084Z          Copying bin\mysurveyaspnet4.dll to obj\Debug\Package\PackageTmp\bin\mysurveyaspnet4.dll.
+2015-10-20T21:45:27.0727085Z          Copying bin\mysurveyaspnet4.pdb to obj\Debug\Package\PackageTmp\bin\mysurveyaspnet4.pdb.
+2015-10-20T21:45:27.0727085Z          Copying Content\bootstrap.css to obj\Debug\Package\PackageTmp\Content\bootstrap.css.
+2015-10-20T21:45:27.0737081Z          Copying Content\bootstrap.min.css to obj\Debug\Package\PackageTmp\Content\bootstrap.min.css.
+2015-10-20T21:45:27.0757082Z          Copying favicon.ico to obj\Debug\Package\PackageTmp\favicon.ico.
+2015-10-20T21:45:27.0757082Z          Copying fonts\glyphicons-halflings-regular.svg to obj\Debug\Package\PackageTmp\fonts\glyphicons-halflings-regular.svg.
+2015-10-20T21:45:27.0767079Z          Copying Global.asax to obj\Debug\Package\PackageTmp\Global.asax.
+2015-10-20T21:45:27.1681161Z          Copying Content\Site.css to obj\Debug\Package\PackageTmp\Content\Site.css.
+2015-10-20T21:45:27.1691177Z          Copying Scripts\bootstrap.js to obj\Debug\Package\PackageTmp\Scripts\bootstrap.js.
+2015-10-20T21:45:27.1701179Z          Copying Scripts\bootstrap.min.js to obj\Debug\Package\PackageTmp\Scripts\bootstrap.min.js.
+2015-10-20T21:45:27.1711173Z          Copying BuildStartedNotify.ps1 to obj\Debug\Package\PackageTmp\BuildStartedNotify.ps1.
+2015-10-20T21:45:27.1711173Z          Copying Scripts\jquery-1.10.2.js to obj\Debug\Package\PackageTmp\Scripts\jquery-1.10.2.js.
+2015-10-20T21:45:27.1731168Z          Copying Scripts\jquery-1.10.2.min.js to obj\Debug\Package\PackageTmp\Scripts\jquery-1.10.2.min.js.
+2015-10-20T21:45:27.2404462Z          Copying Scripts\jquery.validate.js to obj\Debug\Package\PackageTmp\Scripts\jquery.validate.js.
+2015-10-20T21:45:27.2414458Z          Copying Scripts\jquery.validate.min.js to obj\Debug\Package\PackageTmp\Scripts\jquery.validate.min.js.
+2015-10-20T21:45:27.2424462Z          Copying Scripts\jquery.validate.unobtrusive.js to obj\Debug\Package\PackageTmp\Scripts\jquery.validate.unobtrusive.js.
+2015-10-20T21:45:27.2434459Z          Copying Scripts\jquery.validate.unobtrusive.min.js to obj\Debug\Package\PackageTmp\Scripts\jquery.validate.unobtrusive.min.js.
+2015-10-20T21:45:27.2434459Z          Copying Scripts\modernizr-2.6.2.js to obj\Debug\Package\PackageTmp\Scripts\modernizr-2.6.2.js.
+2015-10-20T21:45:27.2444469Z          Copying Scripts\respond.js to obj\Debug\Package\PackageTmp\Scripts\respond.js.
+2015-10-20T21:45:27.2454458Z          Copying Scripts\respond.min.js to obj\Debug\Package\PackageTmp\Scripts\respond.min.js.
+2015-10-20T21:45:27.2464459Z          Copying Scripts\_references.js to obj\Debug\Package\PackageTmp\Scripts\_references.js.
+2015-10-20T21:45:27.2474460Z          Copying Views\_ViewStart.cshtml to obj\Debug\Package\PackageTmp\Views\_ViewStart.cshtml.
+2015-10-20T21:45:27.2484455Z          Copying Views\Shared\Error.cshtml to obj\Debug\Package\PackageTmp\Views\Shared\Error.cshtml.
+2015-10-20T21:45:27.2494456Z          Copying Views\Shared\_Layout.cshtml to obj\Debug\Package\PackageTmp\Views\Shared\_Layout.cshtml.
+2015-10-20T21:45:27.2504457Z          Copying Views\Home\About.cshtml to obj\Debug\Package\PackageTmp\Views\Home\About.cshtml.
+2015-10-20T21:45:27.2514459Z          Copying Views\Home\Contact.cshtml to obj\Debug\Package\PackageTmp\Views\Home\Contact.cshtml.
+2015-10-20T21:45:27.2524456Z          Copying Views\Home\Index.cshtml to obj\Debug\Package\PackageTmp\Views\Home\Index.cshtml.
+2015-10-20T21:45:27.2534459Z          Copying Views\Account\_ExternalLoginsListPartial.cshtml to obj\Debug\Package\PackageTmp\Views\Account\_ExternalLoginsListPartial.cshtml.
+2015-10-20T21:45:27.2544450Z          Copying Views\Account\ConfirmEmail.cshtml to obj\Debug\Package\PackageTmp\Views\Account\ConfirmEmail.cshtml.
+2015-10-20T21:45:27.2554453Z          Copying Views\Account\ExternalLoginConfirmation.cshtml to obj\Debug\Package\PackageTmp\Views\Account\ExternalLoginConfirmation.cshtml.
+2015-10-20T21:45:27.2564451Z          Copying Views\Account\ExternalLoginFailure.cshtml to obj\Debug\Package\PackageTmp\Views\Account\ExternalLoginFailure.cshtml.
+2015-10-20T21:45:27.2574454Z          Copying Views\Account\ForgotPassword.cshtml to obj\Debug\Package\PackageTmp\Views\Account\ForgotPassword.cshtml.
+2015-10-20T21:45:27.2584458Z          Copying Views\Account\ForgotPasswordConfirmation.cshtml to obj\Debug\Package\PackageTmp\Views\Account\ForgotPasswordConfirmation.cshtml.
+2015-10-20T21:45:27.2584458Z          Copying Views\Account\Login.cshtml to obj\Debug\Package\PackageTmp\Views\Account\Login.cshtml.
+2015-10-20T21:45:27.2594467Z          Copying Views\Account\Register.cshtml to obj\Debug\Package\PackageTmp\Views\Account\Register.cshtml.
+2015-10-20T21:45:27.2604456Z          Copying Views\Account\ResetPassword.cshtml to obj\Debug\Package\PackageTmp\Views\Account\ResetPassword.cshtml.
+2015-10-20T21:45:27.2614457Z          Copying Views\Account\ResetPasswordConfirmation.cshtml to obj\Debug\Package\PackageTmp\Views\Account\ResetPasswordConfirmation.cshtml.
+2015-10-20T21:45:27.2624452Z          Copying Views\Account\SendCode.cshtml to obj\Debug\Package\PackageTmp\Views\Account\SendCode.cshtml.
+2015-10-20T21:45:27.2634452Z          Copying Views\Account\VerifyCode.cshtml to obj\Debug\Package\PackageTmp\Views\Account\VerifyCode.cshtml.
+2015-10-20T21:45:27.2634452Z          Copying Views\Manage\AddPhoneNumber.cshtml to obj\Debug\Package\PackageTmp\Views\Manage\AddPhoneNumber.cshtml.
+2015-10-20T21:45:27.2654454Z          Copying Views\Manage\ChangePassword.cshtml to obj\Debug\Package\PackageTmp\Views\Manage\ChangePassword.cshtml.
+2015-10-20T21:45:27.2654454Z          Copying Views\Manage\Index.cshtml to obj\Debug\Package\PackageTmp\Views\Manage\Index.cshtml.
+2015-10-20T21:45:27.2674454Z          Copying Views\Manage\ManageLogins.cshtml to obj\Debug\Package\PackageTmp\Views\Manage\ManageLogins.cshtml.
+2015-10-20T21:45:27.2674454Z          Copying Views\Manage\SetPassword.cshtml to obj\Debug\Package\PackageTmp\Views\Manage\SetPassword.cshtml.
+2015-10-20T21:45:27.2684450Z          Copying Views\Manage\VerifyPhoneNumber.cshtml to obj\Debug\Package\PackageTmp\Views\Manage\VerifyPhoneNumber.cshtml.
+2015-10-20T21:45:27.2694447Z          Copying Views\Shared\Lockout.cshtml to obj\Debug\Package\PackageTmp\Views\Shared\Lockout.cshtml.
+2015-10-20T21:45:27.2704445Z          Copying Views\Shared\_LoginPartial.cshtml to obj\Debug\Package\PackageTmp\Views\Shared\_LoginPartial.cshtml.
+2015-10-20T21:45:27.2714443Z          Copying WepAppSlotSwapIfAllGood.ps1 to obj\Debug\Package\PackageTmp\WepAppSlotSwapIfAllGood.ps1.
+2015-10-20T21:45:27.2724445Z          Copying Views\Home\Success.cshtml to obj\Debug\Package\PackageTmp\Views\Home\Success.cshtml.
+2015-10-20T21:45:27.7613929Z          Copying fonts\glyphicons-halflings-regular.woff to obj\Debug\Package\PackageTmp\fonts\glyphicons-halflings-regular.woff.
+2015-10-20T21:45:27.7613929Z          Copying fonts\glyphicons-halflings-regular.ttf to obj\Debug\Package\PackageTmp\fonts\glyphicons-halflings-regular.ttf.
+2015-10-20T21:45:27.7633930Z          Copying fonts\glyphicons-halflings-regular.eot to obj\Debug\Package\PackageTmp\fonts\glyphicons-halflings-regular.eot.
+2015-10-20T21:45:27.7643930Z          Copying packages.config to obj\Debug\Package\PackageTmp\packages.config.
+2015-10-20T21:45:27.7653935Z          Copying Scripts\jquery-1.10.2.min.map to obj\Debug\Package\PackageTmp\Scripts\jquery-1.10.2.min.map.
+2015-10-20T21:45:27.7663948Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll to obj\Debug\Package\PackageTmp\bin\Antlr3.Runtime.dll.
+2015-10-20T21:45:27.8339048Z          Copying C:\a\1\s\mysurveyaspnet4\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll to obj\Debug\Package\PackageTmp\bin\EntityFramework.dll.
+2015-10-20T21:45:27.8389032Z          Copying C:\a\1\s\mysurveyaspnet4\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll to obj\Debug\Package\PackageTmp\bin\EntityFramework.SqlServer.dll.
+2015-10-20T21:45:27.8409045Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.AspNet.Identity.Core.dll.
+2015-10-20T21:45:27.8419050Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.AspNet.Identity.EntityFramework.dll.
+2015-10-20T21:45:27.8429049Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.AspNet.Identity.Owin.dll.
+2015-10-20T21:45:27.8439047Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Azure.DocumentDB.1.5.0\lib\net40\Microsoft.Azure.Documents.Client.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Azure.Documents.Client.dll.
+2015-10-20T21:45:27.8459049Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll.
+2015-10-20T21:45:27.8469046Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.dll.
+2015-10-20T21:45:27.8479054Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Host.SystemWeb.dll.
+2015-10-20T21:45:27.8479054Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.Cookies.dll.
+2015-10-20T21:45:27.8489046Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.dll.
+2015-10-20T21:45:27.8499047Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.Facebook.dll.
+2015-10-20T21:45:27.8509046Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.Google.dll.
+2015-10-20T21:45:27.8509046Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll.
+2015-10-20T21:45:27.8519066Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.OAuth.dll.
+2015-10-20T21:45:27.8529034Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.Twitter.dll.
+2015-10-20T21:45:27.8539045Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll to obj\Debug\Package\PackageTmp\bin\Microsoft.Web.Infrastructure.dll.
+2015-10-20T21:45:27.8549052Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll to obj\Debug\Package\PackageTmp\bin\Newtonsoft.Json.dll.
+2015-10-20T21:45:27.8559046Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Owin.1.0\lib\net40\Owin.dll to obj\Debug\Package\PackageTmp\bin\Owin.dll.
+2015-10-20T21:45:27.8569047Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll to obj\Debug\Package\PackageTmp\bin\System.Web.Helpers.dll.
+2015-10-20T21:45:27.8579046Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll to obj\Debug\Package\PackageTmp\bin\System.Web.Mvc.dll.
+2015-10-20T21:45:27.8589040Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll to obj\Debug\Package\PackageTmp\bin\System.Web.Optimization.dll.
+2015-10-20T21:45:27.8599041Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll to obj\Debug\Package\PackageTmp\bin\System.Web.Razor.dll.
+2015-10-20T21:45:27.9395513Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll to obj\Debug\Package\PackageTmp\bin\System.Web.WebPages.Deployment.dll.
+2015-10-20T21:45:27.9405519Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll to obj\Debug\Package\PackageTmp\bin\System.Web.WebPages.dll.
+2015-10-20T21:45:27.9415533Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll to obj\Debug\Package\PackageTmp\bin\System.Web.WebPages.Razor.dll.
+2015-10-20T21:45:27.9425531Z          Copying C:\a\1\s\mysurveyaspnet4\packages\WebGrease.1.5.2\lib\WebGrease.dll to obj\Debug\Package\PackageTmp\bin\WebGrease.dll.
+2015-10-20T21:45:27.9445530Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.pdb to obj\Debug\Package\PackageTmp\bin\Antlr3.Runtime.pdb.
+2015-10-20T21:45:27.9455532Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\csc.exe to obj\Debug\Package\PackageTmp\bin\roslyn\csc.exe.
+2015-10-20T21:45:27.9465527Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.Build.Tasks.CodeAnalysis.dll to obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll.
+2015-10-20T21:45:27.9475521Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.CSharp.dll to obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll.
+2015-10-20T21:45:27.9525527Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.dll to obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.dll.
+2015-10-20T21:45:27.9545515Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.VisualBasic.dll to obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll.
+2015-10-20T21:45:27.9595514Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CSharp.Core.targets to obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CSharp.Core.targets.
+2015-10-20T21:45:27.9605523Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.VisualBasic.Core.targets to obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.VisualBasic.Core.targets.
+2015-10-20T21:45:27.9615526Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\System.Collections.Immutable.dll to obj\Debug\Package\PackageTmp\bin\roslyn\System.Collections.Immutable.dll.
+2015-10-20T21:45:27.9625523Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\System.Reflection.Metadata.dll to obj\Debug\Package\PackageTmp\bin\roslyn\System.Reflection.Metadata.dll.
+2015-10-20T21:45:27.9635523Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\vbc.exe to obj\Debug\Package\PackageTmp\bin\roslyn\vbc.exe.
+2015-10-20T21:45:27.9645521Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe to obj\Debug\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe.
+2015-10-20T21:45:27.9645521Z          Copying C:\a\1\s\mysurveyaspnet4\packages\Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe.config to obj\Debug\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe.config.
+2015-10-20T21:45:27.9665514Z          Copying obj\Debug\CSAutoParameterize\transformed\Views\Web.config to obj\Debug\Package\PackageTmp\Views\Web.config.
+2015-10-20T21:45:27.9995524Z          Copying obj\Debug\CSAutoParameterize\transformed\Web.config to obj\Debug\Package\PackageTmp\Web.config.
+2015-10-20T21:45:28.0105529Z        PipelineCopyAllFilesToOneFolderForMsdeploy:
+2015-10-20T21:45:28.0115518Z          Publish Pipeline Deploy phase Stage PipelineCopyAllFilesToOneFolderForMsdeploy
+2015-10-20T21:45:28.0115518Z        Package:
+2015-10-20T21:45:28.0125527Z          Invoking Web Deploy to generate the package with the following settings:
+2015-10-20T21:45:28.0125527Z          $(LocalIisVersion) is 8
+2015-10-20T21:45:28.0135518Z          $(DestinationIisVersion) is 8
+2015-10-20T21:45:28.0135518Z          $(UseIis) is True
+2015-10-20T21:45:28.0145521Z          $(IisUrl) is http://localhost:42483/
+2015-10-20T21:45:28.0145521Z          $(IncludeIisSettings) is False
+2015-10-20T21:45:28.0155582Z          $(_DeploymentUseIis) is False
+2015-10-20T21:45:28.0155582Z          $(DestinationUseIis) is False
+2015-10-20T21:45:28.0215525Z        GetMSDeployInstalledVersionPath:
+2015-10-20T21:45:28.0225519Z          $(_DefaultMSDeployMaxVersion) is 3
+2015-10-20T21:45:28.0225519Z          $(_MSDeployVersionsToTry) is 9.0
+2015-10-20T21:45:28.0235513Z          $(MSDeployPath) is C:\Program Files (x86)\IIS\Microsoft Web Deploy V3\
+2015-10-20T21:45:28.0245526Z        GenerateMsdeployManifestFiles:
+2015-10-20T21:45:28.0245526Z          Generate source manifest file for Web Deploy package/publish ...
+2015-10-20T21:45:28.9205457Z        PackageUsingManifest:
+2015-10-20T21:45:28.9215459Z          Packaging into C:\a\1\a\mysurveyaspnet4.zip.
+2015-10-20T21:45:28.9405455Z          Starting Web deployment task from source: manifest(C:\a\1\a\mysurveyaspnet4.SourceManifest.xml) to Destination: package(C:\a\1\a\mysurveyaspnet4.zip).
+2015-10-20T21:45:34.0960858Z          Adding sitemanifest (sitemanifest).
+2015-10-20T21:45:34.2362203Z          Adding IIS Application (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp)
+2015-10-20T21:45:34.2942206Z          Creating application (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp)
+2015-10-20T21:45:34.2972214Z          Adding virtual path (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp)
+2015-10-20T21:45:34.3052209Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp).
+2015-10-20T21:45:34.3222213Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin).
+2015-10-20T21:45:34.3262206Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Antlr3.Runtime.dll).
+2015-10-20T21:45:34.3502205Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Antlr3.Runtime.pdb).
+2015-10-20T21:45:34.5593406Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\EntityFramework.dll).
+2015-10-20T21:45:35.1763403Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\EntityFramework.SqlServer.dll).
+2015-10-20T21:45:35.2273391Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.AspNet.Identity.Core.dll).
+2015-10-20T21:45:35.2473387Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.AspNet.Identity.EntityFramework.dll).
+2015-10-20T21:45:35.2563391Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.AspNet.Identity.Owin.dll).
+2015-10-20T21:45:35.2623391Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Azure.Documents.Client.dll).
+2015-10-20T21:45:35.3903410Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll).
+2015-10-20T21:45:35.3933402Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.dll).
+2015-10-20T21:45:35.4053393Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Host.SystemWeb.dll).
+2015-10-20T21:45:35.4213402Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.Cookies.dll).
+2015-10-20T21:45:35.4253398Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.dll).
+2015-10-20T21:45:35.4313394Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.Facebook.dll).
+2015-10-20T21:45:35.4343389Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.Google.dll).
+2015-10-20T21:45:35.4403388Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll).
+2015-10-20T21:45:35.4443387Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.OAuth.dll).
+2015-10-20T21:45:35.4533396Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Owin.Security.Twitter.dll).
+2015-10-20T21:45:35.4583404Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Microsoft.Web.Infrastructure.dll).
+2015-10-20T21:45:35.4633397Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\mysurveyaspnet4.dll).
+2015-10-20T21:45:35.4723396Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\mysurveyaspnet4.pdb).
+2015-10-20T21:45:35.4863390Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Newtonsoft.Json.dll).
+2015-10-20T21:45:35.5543388Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\Owin.dll).
+2015-10-20T21:45:35.5623399Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn).
+2015-10-20T21:45:35.5633398Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\csc.exe).
+2015-10-20T21:45:35.5673394Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll).
+2015-10-20T21:45:35.5773397Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll).
+2015-10-20T21:45:36.0643400Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.dll).
+2015-10-20T21:45:36.3003402Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll).
+2015-10-20T21:45:36.9083395Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CSharp.Core.targets).
+2015-10-20T21:45:36.9093402Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.VisualBasic.Core.targets).
+2015-10-20T21:45:36.9103397Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\System.Collections.Immutable.dll).
+2015-10-20T21:45:36.9333393Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\System.Reflection.Metadata.dll).
+2015-10-20T21:45:36.9663400Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\vbc.exe).
+2015-10-20T21:45:36.9703390Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe).
+2015-10-20T21:45:36.9773397Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe.config).
+2015-10-20T21:45:36.9793399Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\System.Web.Helpers.dll).
+2015-10-20T21:45:36.9973398Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\System.Web.Mvc.dll).
+2015-10-20T21:45:37.0743395Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\System.Web.Optimization.dll).
+2015-10-20T21:45:37.0823385Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\System.Web.Razor.dll).
+2015-10-20T21:45:37.1193400Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\System.Web.WebPages.Deployment.dll).
+2015-10-20T21:45:37.1233396Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\System.Web.WebPages.dll).
+2015-10-20T21:45:37.1523400Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\System.Web.WebPages.Razor.dll).
+2015-10-20T21:45:37.1553386Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\bin\WebGrease.dll).
+2015-10-20T21:45:37.3283401Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\BuildStartedNotify.ps1).
+2015-10-20T21:45:37.3293404Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Content).
+2015-10-20T21:45:37.3293404Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Content\bootstrap.css).
+2015-10-20T21:45:37.3363401Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Content\bootstrap.min.css).
+2015-10-20T21:45:37.3413394Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Content\Site.css).
+2015-10-20T21:45:37.3423392Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\favicon.ico).
+2015-10-20T21:45:37.3433401Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\fonts).
+2015-10-20T21:45:37.3433401Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\fonts\glyphicons-halflings-regular.eot).
+2015-10-20T21:45:37.3454232Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\fonts\glyphicons-halflings-regular.svg).
+2015-10-20T21:45:37.3473386Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\fonts\glyphicons-halflings-regular.ttf).
+2015-10-20T21:45:37.3513390Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\fonts\glyphicons-halflings-regular.woff).
+2015-10-20T21:45:37.3533401Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Global.asax).
+2015-10-20T21:45:37.3555150Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\packages.config).
+2015-10-20T21:45:37.3563392Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts).
+2015-10-20T21:45:37.3563392Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\bootstrap.js).
+2015-10-20T21:45:37.3603397Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\bootstrap.min.js).
+2015-10-20T21:45:37.3623395Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\jquery-1.10.2.js).
+2015-10-20T21:45:37.3943396Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\jquery-1.10.2.min.js).
+2015-10-20T21:45:37.4033379Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\jquery-1.10.2.min.map).
+2015-10-20T21:45:37.4313397Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\jquery.validate.js).
+2015-10-20T21:45:37.4353393Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\jquery.validate.min.js).
+2015-10-20T21:45:37.4373389Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\jquery.validate.unobtrusive.js).
+2015-10-20T21:45:37.4383394Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\jquery.validate.unobtrusive.min.js).
+2015-10-20T21:45:37.4393405Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\modernizr-2.6.2.js).
+2015-10-20T21:45:37.4443393Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\respond.js).
+2015-10-20T21:45:37.4463406Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\respond.min.js).
+2015-10-20T21:45:37.4473399Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Scripts\_references.js).
+2015-10-20T21:45:37.4473399Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views).
+2015-10-20T21:45:37.4483399Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account).
+2015-10-20T21:45:37.4483399Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\ConfirmEmail.cshtml).
+2015-10-20T21:45:37.4493400Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\ExternalLoginConfirmation.cshtml).
+2015-10-20T21:45:37.4503408Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\ExternalLoginFailure.cshtml).
+2015-10-20T21:45:37.4503408Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\ForgotPassword.cshtml).
+2015-10-20T21:45:37.4513399Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\ForgotPasswordConfirmation.cshtml).
+2015-10-20T21:45:37.4523398Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\Login.cshtml).
+2015-10-20T21:45:37.4533397Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\Register.cshtml).
+2015-10-20T21:45:37.4533397Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\ResetPassword.cshtml).
+2015-10-20T21:45:37.4543398Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\ResetPasswordConfirmation.cshtml).
+2015-10-20T21:45:37.4553402Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\SendCode.cshtml).
+2015-10-20T21:45:37.4553402Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\VerifyCode.cshtml).
+2015-10-20T21:45:37.4563397Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Account\_ExternalLoginsListPartial.cshtml).
+2015-10-20T21:45:37.4573398Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Home).
+2015-10-20T21:45:37.4583399Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Home\About.cshtml).
+2015-10-20T21:45:37.4583399Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Home\Contact.cshtml).
+2015-10-20T21:45:37.4593396Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Home\Index.cshtml).
+2015-10-20T21:45:37.4603400Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Home\Success.cshtml).
+2015-10-20T21:45:37.4603400Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Manage).
+2015-10-20T21:45:37.4623411Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Manage\AddPhoneNumber.cshtml).
+2015-10-20T21:45:37.4633399Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Manage\ChangePassword.cshtml).
+2015-10-20T21:45:37.4643401Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Manage\Index.cshtml).
+2015-10-20T21:45:37.4643401Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Manage\ManageLogins.cshtml).
+2015-10-20T21:45:37.4643401Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Manage\SetPassword.cshtml).
+2015-10-20T21:45:37.4653398Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Manage\VerifyPhoneNumber.cshtml).
+2015-10-20T21:45:37.4663401Z          Adding directory (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Shared).
+2015-10-20T21:45:37.4689665Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Shared\Error.cshtml).
+2015-10-20T21:45:37.4693392Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Shared\Lockout.cshtml).
+2015-10-20T21:45:37.4693392Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Shared\_Layout.cshtml).
+2015-10-20T21:45:37.4703400Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Shared\_LoginPartial.cshtml).
+2015-10-20T21:45:37.4713395Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\Web.config).
+2015-10-20T21:45:37.4723398Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Views\_ViewStart.cshtml).
+2015-10-20T21:45:37.4723398Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\Web.config).
+2015-10-20T21:45:37.4733392Z          Adding file (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp\WepAppSlotSwapIfAllGood.ps1).
+2015-10-20T21:45:37.4743395Z          Adding ACL's for path (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp)
+2015-10-20T21:45:37.4853399Z          Adding ACL's for path (C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\obj\Debug\Package\PackageTmp)
+2015-10-20T21:45:37.4973386Z          Adding declared parameter 'IIS Web Application Name'.
+2015-10-20T21:45:37.4973386Z          Adding declared parameter 'DefaultConnection-Web.config Connection String'.
+2015-10-20T21:45:37.5623396Z          Successfully executed Web deployment task.
+2015-10-20T21:45:37.5703398Z          Package "mysurveyaspnet4.zip" is successfully created as single file at the following location:
+2015-10-20T21:45:37.5703398Z          file:///C:/a/1/a
+2015-10-20T21:45:37.5713390Z          To get the instructions on how to deploy the web package please visit the following link:
+2015-10-20T21:45:37.5713390Z          http://go.microsoft.com/fwlink/?LinkId=124618
+2015-10-20T21:45:38.6214397Z        GenerateSampleDeployScript:
+2015-10-20T21:45:38.6214397Z          Sample script for deploying this package is generated at the following location:
+2015-10-20T21:45:38.6224409Z          C:\a\1\a\mysurveyaspnet4.deploy.cmd
+2015-10-20T21:45:38.6234386Z          For this sample script, you can change the deploy parameters by changing the following file: 
+2015-10-20T21:45:38.6234386Z          C:\a\1\a\mysurveyaspnet4.SetParameters.xml
+2015-10-20T21:45:38.6244385Z        PipelineDeployPhase:
+2015-10-20T21:45:38.6244385Z          Publish Pipeline Deploy Phase
+2015-10-20T21:45:38.6254384Z      2>Done Building Project "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\mysurveyaspnet4.csproj" (default targets).
+2015-10-20T21:45:38.6274398Z      1>Done Building Project "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4.sln" (default targets).
+2015-10-20T21:45:38.6274398Z Build succeeded.
+2015-10-20T21:45:38.6284396Z     0 Warning(s)
+2015-10-20T21:45:38.6284396Z     0 Error(s)
+2015-10-20T21:45:38.6294394Z Time Elapsed 00:00:16.09

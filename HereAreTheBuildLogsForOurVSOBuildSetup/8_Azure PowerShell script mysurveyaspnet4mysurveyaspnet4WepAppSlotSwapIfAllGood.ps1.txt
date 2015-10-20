@@ -1,0 +1,13 @@
+2015-10-20T21:46:25.2344365Z Executing the powershell script: C:\LR\MMS\Services\Mms\TaskAgentProvisioner\Tools\agents\default\tasks\AzurePowerShell\1.0.7\RunAzurePowerShell.ps1
+2015-10-20T21:46:25.4304317Z Looking for Azure PowerShell module at C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+2015-10-20T21:46:25.7883163Z AzurePSCmdletsVersion= 0.9.8
+2015-10-20T21:46:25.7902895Z Get-ServiceEndpoint -Name d3444aae-a662-42e4-8a23-6ab944553c65 -Context Microsoft.TeamFoundation.DistributedTask.Agent.Worker.Common.TaskContext
+2015-10-20T21:46:25.8912876Z Username= buildservice@jevanletoutlook.onmicrosoft.com
+2015-10-20T21:46:25.8923088Z Add-AzureAccount -Credential $psCredential
+2015-10-20T21:46:26.9047783Z azureSubscriptionId= 3971cf87-fc7d-46c2-b27b-0a5cc46ee31d
+2015-10-20T21:46:26.9057952Z azureSubscriptionName= MSDN
+2015-10-20T21:46:26.9077952Z Select-AzureSubscription -SubscriptionId 3971cf87-fc7d-46c2-b27b-0a5cc46ee31d
+2015-10-20T21:46:26.9087957Z ScriptArguments= 
+2015-10-20T21:46:26.9097965Z ScriptPath= C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\WepAppSlotSwapIfAllGood.ps1
+2015-10-20T21:46:26.9107948Z scriptCommand= & "C:\a\1\s\mysurveyaspnet4\mysurveyaspnet4\WepAppSlotSwapIfAllGood.ps1" 
+2015-10-20T21:46:51.8248393Z Life is good!
