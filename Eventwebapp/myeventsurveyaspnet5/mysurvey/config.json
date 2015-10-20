@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "mysurvey"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-mysurvey-9ec84bee-a537-4d0a-9ee3-bcd3b6750e70;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
