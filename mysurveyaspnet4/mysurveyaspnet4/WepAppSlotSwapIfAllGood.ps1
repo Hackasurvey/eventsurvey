@@ -4,5 +4,5 @@ if ($r.StatusCode –eq 200)
 {
     Write-Host "Life is good!" -ForegroundColor Green
 
-    Switch-AzureWebsiteSlot –Name hackasurvey -Slot1 staging
+    Switch-AzureWebsiteSlot –Name hackasurvey -Slot1 staging -Force
 }
